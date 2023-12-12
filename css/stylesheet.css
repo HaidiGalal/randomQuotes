@@ -1,0 +1,108 @@
+/* body{
+    background-color: #DFDFDF;
+   
+}
+
+.background::after{
+
+
+margin: auto;
+content: "";
+width: 100%;
+background-color: #F85516;
+height: 200px;
+transform:   skew(10deg) ;
+position: absolute;
+top: 50px;
+right: 50px;
+display: block;
+
+} */
+
+*{ box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Just Another Hand', cursive;
+
+}
+body{
+overflow: hidden;
+ background-color: #DFDFDF;   
+ font-family: 'Handlee', cursive;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 10px;
+    padding-top:  5px;
+}
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;;
+
+    color: #F85516;
+}
+
+#container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.skewed-bg {
+    width: 100%;
+    height: 40vh;
+    background-color:  #F85516;
+    transform: skewY(-20deg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.box{
+    border-radius: 5px;
+    transform: skewY(20deg);
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.266);
+    width: 50%;
+    background-color: #FEFEFE;
+    /* height: 50vh; */
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.icon{
+    text-align: left;
+}
+i{
+    font-size: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FF5733;
+}
+h2{  
+    /* padding-bottom: 20px; */
+    font-size: 40px;
+    font-weight: 300;
+}
+h3{
+    font-size: 33px;
+    font-weight: 300;
+    padding: 20px;
+}
+button{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 300;
+    font-size: 30px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 9px;
+    background-color: #F85516;
+    color: white;
+    border: none;
+    transition:  all 1s ;
+}
+button:hover{
+    box-shadow: 0px 0px 0px 5px rgba(255, 99, 51, 0.588);
+    cursor: pointer;
+   background-color: #FF5733;
+}
